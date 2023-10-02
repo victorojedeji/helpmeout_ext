@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>HelpMeOut</title>
+</head>
+<body>
+    <section class="content">
+         <div class="header-wrapper">
+          <div class="logo-header-wrapper">
+            <div class="logo-wrapper">
+              <img src="./assets/iCON 7 1.svg" alt="icon" class="company-logo">
+              <p class="company-name">HelpMeOut</p>
+             </div>  
+             <div class="icon-wrapper">
+              <img src="./assets/icons/setting-2.svg" alt="setting icon" class="icon first">
+              <img src="./assets/icons/close-circle.svg" alt="close icon" class="icon second">
+             </div>
+          </div>
+          <div class="header-text-wrapper">
+            <p>This extension helps you record and share help videos with ease.</p>
+          </div>
+         </div>
+         <div class="app-functions-wrapper">
+            <div class="tab-wrapper">
+              <div class="tab-holder" id="recordScreenButton">
+                <img src="./assets/icons/5.svg" alt="Full screen" class="tab-icon">
+                <p class="tab-text">Full Screen</p>
+              </div>
+              <div class="tab-holder" id="currentTabButton">
+                <img src="./assets/icons/6.svg" alt="Current Tab" class="tab-icon">
+                <p class="tab-text">Current Tab</p>
+              </div>
+            </div>
+            <div class="preference-wrapper">
+              <div class="option">
+                <div class="option-icon-holder">
+                  <img src="./assets/icons/video-camera.svg" alt="camera permision">
+                  <p>Camera</p>
+                </div>
+                <div class="toggle-button" id="cameraToggle">
+                  <button class="off" id="cameraToggleButton">
+                    <span class="pin"></span>
+                  </button>
+                </div>
+              </div>
+              <div class="option">
+                <div class="option-icon-holder">
+                  <img src="./assets/icons/Vector.svg" alt="audio permission">
+                  <p>Audio</p>
+                </div>
+                <div class="toggle-button" id="audioToggle">
+                  <button class="off" id="audioToggleButton">
+                    <span class="pin"></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <button id="startRecordingButton" class="start-button">Start Recording</button>
+         </div>
+    </section>
+    <script src="./popup.js"></script>
+</body>
+</html>
+

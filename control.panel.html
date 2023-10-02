@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="control-panel.css">
+  <title>control-panel</title>
+</head>
+<body>
+  <section class="control-panel">
+    <div class="time-wrapper">
+      <p class="time" id="recordingTime">00:03:45</p>
+      <div class="red-dot-animation"></div>
+    </div>
+    <div class="actions-wrapper">
+      <div class="action-button-holder" id="pauseResumeButton">
+        <button class="action-button">
+          <img src="./assets/icons/4.svg" alt="pause" class="action-icon">
+        </button>
+      </div>
+
+      <div class="action-button-holder" id="stopRecordingButton">
+        <button class="action-button">
+          <img src="./assets/icons/3.svg" alt="stop" class="action-icon" id="stop_video">
+        </button>
+      </div>
+
+      <div class="action-button-holder">
+        <button class="action-button">
+          <img src="./assets/icons/1.svg" alt="camera" class="action-icon">
+        </button>
+      </div>
+
+      <div class="action-button-holder" id="micButton">
+        <button class="action-button">
+          <img src="./assets/icons/2.svg" alt="mic" class="action-icon">
+        </button>
+      </div>
+
+      <div class="action-button-holder" id="deleteButton">
+        <button class="action-button">
+          <img src="./assets/icons/7.svg" alt="delete" class="action-icon">
+        </button>
+      </div>
+    </div>
+  </section>
+  <script src="control-panel.js"></script>
+</body>
+</html>

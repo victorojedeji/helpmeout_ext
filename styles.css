@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+  border-radius: 24px;
+}
+
+.content{
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 32px;
+  min-width: 300px;
+  border-radius: 24px;
+}
+
+.logo-header-wrapper {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.company-logo {
+  width: 28px;
+  height: 28px;
+}
+
+.company-name {
+  text-shadow: 0px 3px 3px #D9D9D9;
+  color: #120B48;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: 'Sora', sans-serif;
+}
+
+.icon-wrapper img {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-wrapper .icon.first {
+  margin-right: 12px;
+}
+
+.header-text-wrapper {
+  text-shadow: 0px 3px 3px #D9D9D9;
+  color: #413C6D;
+  font-size: 14px;
+  font-weight: regular;
+  margin-bottom: 32px;
+}
+
+.header-text-wrapper p {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.toggle-button button {
+  background-color: lightgray;
+  border: 0;
+  border-radius: 12px;
+  cursor: pointer;
+  height: 20px;
+  position: relative;
+  width: 36px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.toggle-button button:hover {
+  background-color: lightgray;
+}
+
+.toggle-button button:focus,
+.toggle-button button:active {
+  outline: none;
+}
+
+.toggle-button button::-moz-focus-inner {
+  border: 0;
+}
+
+.toggle-button .pin {
+  background-color: white;
+  border-radius: 50%;
+  height: 16px;
+  left: 1px;
+  position: absolute;
+  top: 2px;
+  width: 16px;
+  transition: left ease .5s;
+}
+
+#cameraToggleButton.off.on  {
+  background-color: #120B48;
+}
+
+#cameraToggleButton.off.on .pin {
+  left: 18px;
+}
+
+#audioToggleButton.off.on  {
+  background-color: #120B48;
+}
+
+#audioToggleButton.off.on .pin {
+  left: 18px;
+}
+
+.tab-wrapper {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.tab-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-wrapper img {
+  margin-bottom: 8px;
+  height: 32px;
+  width: 32px;
+  color: #120B48;
+}
+
+.tab-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #120B48;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.option {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding-top: 12px;
+  padding-left: 16px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  border: 1px solid #120B48;
+  border-radius: 12px;
+}
+
+.option-icon-holder {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.option-icon-holder p {
+  font-size: 14px;
+  color: #100A42;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.start-button {
+  width: 100%;
+  padding: 16px;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #120B48;
+  color: white;
+  border: 1px solid #120B48;
+  border-radius: 12px;
+  outline: none;
+  font-family: 'Work Sans', sans-serif;
+}
